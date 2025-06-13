@@ -24,27 +24,6 @@ The primary goal of this project is to:
 - ✅ Validation to prevent prediction when no symptoms are selected
 - ✅ Clear prediction output
 
-## 📂 Project Structure
-Disease_Predictor_Chatbot/
-│
-├── app.py # Streamlit Web App
-├── model/
-│ ├── disease_model.pkl # Trained ML Model
-│ ├── symptom_encoder.pkl # Encoder for Symptoms and Diseases
-│ └── disease_info.json # Disease Descriptions and Precautions
-├── data/
-│ ├── Symptom-severity.csv
-│ ├── symptom_Description.csv
-│ └── symptom_precaution.csv
-├── images/
-│ ├── interface.png
-│ ├── no_input_warning.png
-│ ├── prediction_output.png
-│ └── symptoms_selection.png
-├── requirements.txt # Required Python packages
-├── .gitignore # Git ignored files/folders
-└── README.md # Project documentation
-
 
 ## 🛠️ Technologies Used
 - Python
