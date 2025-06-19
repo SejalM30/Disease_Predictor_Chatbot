@@ -15,7 +15,6 @@ def load_resources():
 
     return model, all_symptoms, label_encoder, disease_info
 
-
 def predict_disease(selected_symptoms, model, all_symptoms, label_encoder):
     selected_symptoms = set(sym.lower() for sym in selected_symptoms)
 
@@ -26,7 +25,6 @@ def predict_disease(selected_symptoms, model, all_symptoms, label_encoder):
     predicted_disease = label_encoder.inverse_transform([pred_encoded])[0]
 
     return predicted_disease
-
 
 def get_disease_info(disease_name, disease_info):
     return disease_info.get(disease_name, {

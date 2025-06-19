@@ -14,7 +14,6 @@ description_df = pd.read_csv("data/symptom_Description.csv")  # disease and desc
 severity_df = pd.read_csv("data/Symptom-severity.csv")       # symptom severity info (optional)
 
 # For training, we'll use train_df
-
 # Fill NaNs
 train_df.fillna("", inplace=True)
 precautions_df.fillna("", inplace=True)

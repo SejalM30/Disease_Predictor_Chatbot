@@ -1,7 +1,6 @@
 import streamlit as st
 from chatbot_model import load_resources, predict_disease, get_disease_info
 
-# Load model and data once
 model, all_symptoms, le, disease_info = load_resources()
 
 st.title("🩺 Disease Predictor Chatbot")

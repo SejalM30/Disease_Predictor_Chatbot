@@ -28,6 +28,5 @@ def main():
         else:
             print("No precautions info available.")
 
-
 if __name__ == "__main__":
     main()

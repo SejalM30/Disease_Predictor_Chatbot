@@ -60,7 +60,7 @@ The app allows users to:
 ![Web Interface](images/interface.png)
 
 ### 2️⃣ Symptom Selection
-![Symptom Selection](images/symptoms_selection.png)
+![Symptom Selection](images/symptom_selection.png)
 
 ### 3️⃣ Prediction Output
 ![Prediction Output](images/prediction_output.png)
