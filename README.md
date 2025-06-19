@@ -14,7 +14,6 @@ The primary goal of this project is to:
 ✔️ Display precautionary measures to prevent or handle the disease.  
 ✔️ Help users understand possible health issues based on their symptoms.
 
-
 ## 🔍 Features
 
 - ✅ User-friendly Streamlit Web Interface
