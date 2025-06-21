@@ -9,7 +9,7 @@ It can be useful for health-related web applications, personal health trackers, 
 The primary goal of this project is to:
 
 ✔️ Allow users to select multiple symptoms they are experiencing.  
-✔️ Predict the most likely disease using a Machine Learning model.  
+✔️ Predict the most likely disease using a Random Forest Classifier model.  
 ✔️ Provide a description of the disease.  
 ✔️ Display precautionary measures to prevent or handle the disease.  
 ✔️ Help users understand possible health issues based on their symptoms.
@@ -18,7 +18,7 @@ The primary goal of this project is to:
 
 - ✅ User-friendly Streamlit Web Interface
 - ✅ Multi-symptom selection through dropdown
-- ✅ Machine Learning powered disease prediction
+- ✅Random Forest Classifier powered disease prediction
 - ✅ Precautionary measures display
 - ✅ Validation to prevent prediction when no symptoms are selected
 - ✅ Clear prediction output
@@ -30,7 +30,7 @@ The primary goal of this project is to:
 - Scikit-Learn
 - Pandas
 - NumPy
-- Machine Learning (Classification)
+- Machine Learning (Classification using Random Forest Classifier)
 
 ## 📊 Dataset Information
 
